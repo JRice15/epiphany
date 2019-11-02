@@ -7,7 +7,6 @@
 function clear() {
     document.getElementById("heading").innerText = "Title"; // heading div
     document.getElementById("content").innerText = ""; // content div
-
-  }
+}
   
 clear();
