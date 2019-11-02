@@ -1,0 +1,80 @@
+/* 
+  EPIPHANY
+  v1.2
+  JULIAN RICE 
+*/
+
+body {
+    background-color: #313131;
+    color: #c5c5c5;
+    font-family: monospace;
+    padding: 16px;
+    min-width: 400px;
+}
+
+a {
+    color: #313131;
+    text-decoration-line: none;
+    padding: 9px;
+    background-color: #6d7797;
+    border-radius: 9px;
+    font-family: monospace;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: 600;
+    position: absolute;
+}
+
+#save {
+    right: 25px;
+}
+
+#open {
+    right: 92px;
+}
+
+#clear {
+    right: 160px;
+}
+
+
+a:hover {
+    background-color: #717ea0;
+}
+
+p:focus,
+div:focus {
+    outline: #555d72;
+}
+
+#heading {
+    text-align: center;
+    font-size: 24pt;
+    padding: 12px;
+    min-width: 250px;
+}
+
+#content {
+    padding: 50px;
+    /* padding-top: 20px; */
+    height: 800px;
+    display: block;
+    max-width: 600px;
+    min-width: 250px;
+    margin: auto;
+    font-size: 10pt
+}
+
+#content:focus {
+    outline-style: ridge;
+}
+
+#footer1 {
+    padding-top: 32px;
+    text-align: center;
+}
+
+
+#footer2 {
+    text-align: center;
+}
